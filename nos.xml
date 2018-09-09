@@ -16,7 +16,7 @@
         sync-j="16" />
 
     <!-- general -->
-    <project path="build/make" name="android_build_make" remote="nos" revision="p" >
+    <project path="build/make" name="android_build_make" remote="starlord" revision="p" >
         <copyfile src="core/root.mk" dest="Makefile" />
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
         <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -92,4 +92,7 @@
     <project path="hardware/qcom/thermal" name="hardware_qcom_thermal" remote="pe" revision="pie" />
     <project path="hardware/qcom/vr" name="hardware_qcom_vr" remote="pe" revision="pie" />
     <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="pe" revision="pie" />
+    
+    <!-- clang -->
+    <project path="prebuilts/clang/host/linux-x86" name="prebuilts_clang_host_linux-x86" remote="pe" revision="pie" />
 </manifest>
