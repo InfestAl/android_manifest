@@ -46,9 +46,9 @@
 
     <!-- hardware -->
     <project path="hardware/libhardware" name="android_hardware_libhardware" remote="nos" revision="p" />
-    <project path="hardware/qcom/audio-caf-msm8998" name"hardware_qcom_audio-caf-msm8998" remote="starlord" revision="nos" />
-    <project path="hardware/qcom/display-caf-msm8998" name"hardware_qcom_display-caf-msm8998" remote="starlord" revision="nos" />
-    <project path="hardware/qcom/media-caf-msm8998" name"hardware_qcom_media-caf-msm8998" remote="starlord" revision="nos" />
+    <project path="hardware/qcom/audio-caf-msm8998" name="hardware_qcom_audio-caf-msm8998" remote="starlord" revision="nos" />
+    <project path="hardware/qcom/display-caf-msm8998" name="hardware_qcom_display-caf-msm8998" remote="starlord" revision="nos" />
+    <project path="hardware/qcom/media-caf-msm8998" name="hardware_qcom_media-caf-msm8998" remote="starlord" revision="nos" />
     <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="nos" revision="p" />
     <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="nos" revision="p" />
     <project path="hardware/interfaces" name="android_hardware_interfaces" remote="nos" revision="p" />
@@ -83,7 +83,7 @@
     <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="nos" revision="p" />
     <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="nos" revision="p" />
 
-    <!-- oneplus3 -->
+    <!-- whyred -->
     <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="starlord" revision="9.x" />
     <project path="vendor/xiaomi" name="vendor_xiaomi" remote="starlord" revision="9.x" />
 
