@@ -25,7 +25,7 @@ GIT config (nickname, e-mail)
 To initialize your local repository use
 ---------------------------------------
 
-    repo init -u https://github.com/starlord66/android_manifest.git -b p
+    repo init -u https://github.com/InfestAl/android_manifest.git -b p
 
 Then to sync up:
 ----------------
@@ -35,7 +35,7 @@ Then to sync up:
 Build command is
 ----------------
     . build/envsetup.sh
-    lunch nitrogen_whyred-userdebug
+    lunch nitrogen_X00TD-userdebug
     make -j 7 otapackage
 
 Official supported Devices
