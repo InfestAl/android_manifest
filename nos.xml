@@ -83,9 +83,6 @@
     <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="nos" revision="p" />
     <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="nos" revision="p" />
 
-    <!-- whyred -->
-    <project path="device/xiaomi/whyred" name="device_xiaomi_whyred" remote="starlord" revision="9.x" />
-    <project path="vendor/xiaomi" name="vendor_xiaomi" remote="starlord" revision="9.x" />
 
     <!-- qcom -->
     <project path="hardware/qcom/power" name="hardware_qcom_power" remote="pe" revision="pie" />
